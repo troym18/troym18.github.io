@@ -1,7 +1,68 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Troy McBride Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow p-6">
+    <div class="max-w-4xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Troy McBride</h1>
+      <p class="text-sm text-gray-600">ECE @ Carnegie Mellon University</p>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section class="max-w-4xl mx-auto p-6 mt-6 bg-white rounded-xl shadow">
+    <h2 class="text-xl font-semibold mb-2">About Me</h2>
+    <p>I’m a rising junior studying Electrical and Computer Engineering at Carnegie Mellon. I'm passionate about building systems that merge software, hardware, and impactful user experiences.</p>
+  </section>
+
+  <!-- Projects -->
+  <section class="max-w-4xl mx-auto p-6 mt-6 bg-white rounded-xl shadow">
+    <h2 class="text-xl font-semibold mb-4">Projects</h2>
+
+    <!-- ReachUrTeacher -->
+    <div class="mb-6">
+      <h3 class="text-lg font-bold">ReachUrTeacher</h3>
+      <p>A real-time web app using OpenCV to track raised hands and manage classroom engagement. Features face recognition and camera switching.</p>
+      <a href="https://github.com/troym18/ReachUrTeacher" class="text-blue-600 hover:underline mr-4">GitHub</a>
+      <a href="https://youtu.be/mlkB33r8fvg" class="text-blue-600 hover:underline">Video Demo</a>
+    </div>
+
+    <!-- Spoilsafe -->
+    <div class="mb-6">
+      <h3 class="text-lg font-bold">Spoilsafe</h3>
+      <p>An IoT-enabled container that uses gas sensors and Bluetooth to predict food spoilage. Built with Arduino, React, and NodeJS.</p>
+      <a href="https://drive.google.com/drive/folders/1-0hXXLNKaL57hmeXJolqDdColq0A6q9c?usp=sharing" class="text-blue-600 hover:underline mr-4">Photos / Docs</a>
+      <a href="https://spoilsafe.tech" class="text-blue-600 hover:underline">Website</a>
+    </div>
+
+    <!-- Pocket League -->
+    <div>
+      <h3 class="text-lg font-bold">Pocket League</h3>
+      <p>A 2D Python video game inspired by Rocket League. Features multiplayer mode, custom physics engine, and power-ups.</p>
+      <a href="https://github.com/troym18/PocketLeague" class="text-blue-600 hover:underline mr-4">GitHub</a>
+      <a href ="https://youtu.be/9YCH4SF45Z4?si=MmlwBaDmBZDZuXzI" class="text-blue-600 hover:underline">Video Demo</a>
+    </div>
+  </section>
+
+  <!-- Resume Download -->
+  <section class="max-w-4xl mx-auto p-6 mt-6 mb-10 bg-white rounded-xl shadow text-center">
+    <h2 class="text-xl font-semibold mb-3">Resume</h2>
+    <a href="Troy McBride Resume.pdf" download class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+      Download Resume
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-gray-500 p-4">
+    &copy; 2025 Troy McBride. All rights reserved.
+  </footer>
+
 </body>
 </html>
